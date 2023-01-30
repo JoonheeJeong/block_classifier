@@ -2,7 +2,7 @@
 
 ### 이용방법
 - "prepare_dataset.ipynb"을 실행하면 필요한 모든 데이터셋이 생성됩니다.
-- paser 인자 --data_model에서 입력받은 정보를 바탕으로 block_classifier.py의 클래스 BlockDataModule의 함수 _get_fns에서 해당하는 데이터셋을 읽도록 되어있습니다. 가능한 데이터셋의 종류 (--data_model의 값)은 다음과 같습니다.
+- block_classifier.py를 실행할 때 paser 인자 --data_model에 대하여 입력한 값을 바탕으로 클래스 BlockDataModule의 함수 _get_fns에서 해당하는 데이터셋을 읽도록 되어있습니다. 가능한 데이터셋의 종류 (--data_model의 값)은 다음과 같습니다.
   - base
   - ignore
   - replace
